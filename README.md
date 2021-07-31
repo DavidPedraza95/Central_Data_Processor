@@ -38,11 +38,11 @@
   <ur>
 
   ## 👨‍💼Contributing👨‍💼
-  Andres Molestina
-  David Pedraza
-  Joshua Gonzalez
-  Julian Pedraza
-  Rodrick Sims
+ - Andres Molestina
+ - David Pedraza
+ - Joshua Gonzalez
+ - Julian Pedraza
+ - Rodrick Sims
   <ur>
 
   ## 📈Test📈
