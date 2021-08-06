@@ -1,0 +1,15 @@
+DROP DATABASE IF EXISTS Project2_db;
+CREATE DATABASE Project2_db;
+USE Project2_db;
+CREATE TABLE employee_tasks (
+  id INT NOT NULL AUTO_INCREMENT,
+  employee_task VARCHAR(240) NOT NULL,
+  PRIMARY KEY (id)
+);
+CREATE TABLE roles (
+    id INT NOT NULL AUTO_INCREMENT,
+    title VARCHAR(30) UNIQUE NOT NULL,
+	manager BOOLEAN default FALSE NOT NULL,
+    dept_id INT NOT NULL,
+    FOREIGN KEY (dept_id) REFERENCES employee_tasks (id) ON DELETE CASCADE,
+    PRIMARY KEY (id)
