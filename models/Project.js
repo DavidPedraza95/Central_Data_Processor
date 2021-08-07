@@ -18,6 +18,9 @@ Project.init(
     description: {
       type: DataTypes.STRING,
     },
+    manager: {
+      type: DataTypes.STRING,
+    },
     date_created: {
       type: DataTypes.DATE,
       allowNull: false,
