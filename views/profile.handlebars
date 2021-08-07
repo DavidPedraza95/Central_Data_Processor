@@ -1,12 +1,12 @@
 <div class="row">
   <div class="col-auto">
-    <h2>Welcome, {{name}}!</h2>
+    <h2>Welcome to CDP Systems, {{name}}!</h2>
   </div>
 </div>
 
 <div class="row mt-4">
   <div class="col-md-6">
-    <h3>Create a New Project:</h3>
+    <h3>Create a New Task:</h3>
 
     <form class="form new-project-form">
       <div class="form-group">
@@ -14,12 +14,16 @@
         <input class="form-input" type="text" id="project-name" name="project-name" />
       </div>
       <div class="form-group">
-        <label for="project-funding">needed funding ($):</label>
+        <label for="project-funding">Priority Level:</label>
         <input class="form-input" type="number" id="project-funding" name="project-funding" />
       </div>
       <div class="form-group">
         <label for="project-desc">description:</label>
         <textarea class="form-input" id="project-desc" name="project-desc"></textarea>
+      </div>
+       <div class="form-group">
+        <label for="project-manager">Manager:</label>
+        <textarea class="form-input" id="project-manager" name="project-manager"></textarea>
       </div>
       <div class="form-group">
         <button type="submit" class="btn btn-primary">Create</button>
