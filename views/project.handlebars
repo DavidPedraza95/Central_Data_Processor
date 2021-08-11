@@ -9,7 +9,21 @@
     <span class="dollar-amount">{{format_amount needed_funding}}</span>
     Priority
   </p>
-  <p>
-    <button class="btn btn-primary">Complete task</button>
-  </p>
+  {{#if is_completed}}
+  <p>Task Complete</p> 
+  {{else}}
+  {{!-- <p>
+    <button class="btn btn-primary" type="button" data-id="{{project.id}}">Complete task</button>
+  </p> --}}
+  <form>
+    <input type="hidden" name="task-complete" value="true"/>
+    <button class="btn btn-lg btn-success task-complete" type="submit">
+        Complete 
+    </button>
+</form>
+  {{/if}}
 </div>
+<script>
+  var id={{id}};
+</script>
+<script src="/js/completeBtn.js"></script>

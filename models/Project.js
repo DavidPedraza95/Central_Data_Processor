@@ -37,6 +37,10 @@ Project.init(
         key: 'id',
       },
     },
+    is_completed: {
+      type: DataTypes.BOOLEAN,
+      defaultValue: false,
+    },
   },
   {
     sequelize,
