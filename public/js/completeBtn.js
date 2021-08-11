@@ -12,11 +12,11 @@ const compButtonHandler = async (event) => {
       },
     });
     console.log (is_completed)
-    // if (response.ok) {
-    //   document.location.replace('/profile');
-    // } else {
-    //   alert(response.statusText);
-    // }
+     if (response.ok) {
+      document.location.reload();
+    } else {
+      alert(response.statusText);
+    }
   }
   };
 
