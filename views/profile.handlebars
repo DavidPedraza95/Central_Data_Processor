@@ -10,7 +10,7 @@
 
     <form class="form new-project-form">
       <div class="form-group">
-        <label for="project-name">project name:</label>
+        <label for="project-name">task:</label>
         <input class="form-input" type="text" id="project-name" name="project-name" />
       </div>
       <div class="form-group">
@@ -33,7 +33,7 @@
 
   {{#if projects.length}}
   <div class="col-md-6 project-list">
-    <h3>Current Projects:</h3>
+    <h3>Active tasks:</h3>
 
     {{#each projects as |project|}}
     <div class="row mb-2">
