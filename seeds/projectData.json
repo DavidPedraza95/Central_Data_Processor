@@ -1,20 +1,20 @@
 [
   {
-    "name": "123 test",
-    "description": "A mobile app that will send you notifications whenever a concert is playing in your area.",
-    "needed_funding": 5000,
-    "manager": "test"
+    "name": "Employee safety August",
+    "description": "Complete montly safety video for all employees.",
+    "needed_funding": 3,
+    "manager": "Joshua"
   },
   {
-    "name": "The Ultimate Tech Quiz",
-    "description": "A web app that will give users 10 new technical questions each day and track their progress in things like programming, cybersecurity, database architecture, and more!",
-    "needed_funding": 10000,
-    "manager": "test"
+    "name": "Audit i9's ",
+    "description": "Complete audit of i9 for federal regulations ",
+    "needed_funding": 2,
+    "manager": "Andres"
   },
   {
-    "name": "Roll 'Em Up",
-    "description": "A game for Windows and macOS where players move a ball through a series of increasingly challenging mazes.",
-    "needed_funding": 800,
-    "manager": "test"
+    "name": "Email Merge/update 1",
+    "description": "emails need to be merge with new teams software for all employees. ",
+    "needed_funding": 1,
+    "manager": "David"
   }
 ]
