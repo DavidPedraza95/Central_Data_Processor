@@ -377,6 +377,7 @@ h1 {
 
 h2 {
   font-size: 2rem;
+  border-bottom: 1px solid #0dd3bb;
 }
 
 h3 {
@@ -399,6 +400,7 @@ p {
   font-size: 1.1rem;
   margin: 0 0 1rem;
   line-height: 1.5;
+  border-bottom: 1px solid #0dd3bb;
 }
 
 ul,
