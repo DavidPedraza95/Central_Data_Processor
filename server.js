@@ -26,12 +26,9 @@ const sess = {
 
 app.use(session(sess)); 
 
-// Route to display static src images
-app.get("/static", (req, res) => {
-  res.render("static");
-});
-
+//Use assets folder for logo image
 app.use(express.static('assets'));  
+
 // Inform Express.js on which template engine to use
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
