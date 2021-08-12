@@ -985,7 +985,7 @@ a:hover {
 }
 
 .btn:hover {
-  background-color: #cecece;
+  background-color: #0dd3bb;
 }
 
 .btn.btn-squared {
@@ -1000,6 +1000,12 @@ a:hover {
 .btn.btn-lg {
   font-size: 1.25rem;
   padding: 0.8rem 1.4rem;
+  background-color: #1b89bc;
+  color: #ffffff;
+}
+
+.btn.btn-lg:hover {
+  background-color: #0dd3bb;
 }
 
 .btn.btn-block {
@@ -1009,21 +1015,21 @@ a:hover {
 }
 
 .btn.btn-primary {
-  background-color: #2d3e50;
-  color: #d9e9e8;
+  background-color: #1b89bc;
+  color: #ffffff;
 }
 
 .btn.btn-primary:hover {
-  background-color: #57779a;
+  background-color: #0dd3bb;
 }
 
 .btn.btn-danger {
-  background-color: #e64c66;
+  background-color: #d84d64;
   color: #ffffff;
 }
 
 .btn.btn-danger:hover {
-  background-color: #ee8294;
+  background-color: #fc002a;
 }
 
 .btn.btn-info {
