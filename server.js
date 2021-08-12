@@ -24,8 +24,14 @@ const sess = {
   })
 };
 
-app.use(session(sess));
+app.use(session(sess)); 
 
+// Route to display static src images
+app.get("/static", (req, res) => {
+  res.render("static");
+});
+
+app.use(express.static('assets'));  
 // Inform Express.js on which template engine to use
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
