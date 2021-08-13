@@ -49,7 +49,7 @@
   Please run the file.js in your terminal
   <ur>
 
-  ![demo](https://github.com/DavidPedraza95/Employee_Management_System/blob/main/Assets/etmms%20gif.gif?raw=true)
+  ![demo](https://github.com/DavidPedraza95/Central_Data_Processor/blob/main/assets/Untitled_%20Aug%2012,%202021%208_32%20PM.gif?raw=true)
     
     
     
